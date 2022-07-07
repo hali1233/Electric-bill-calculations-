@@ -1,0 +1,270 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+    text-decoration: none;
+}
+
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+    display: block;
+}
+
+body {
+    line-height: 1;
+}
+
+ol,
+ul {
+    list-style: none;
+}
+
+blockquote,
+q {
+    quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+    content: '';
+    content: none;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+body {
+    width: 100%;
+    height: 100%;
+    text-align: center;
+}
+
+.container {
+    max-width: 1200px;
+    height: 200px;
+    margin: auto;
+
+}
+
+.header-logo {
+    float: left;
+    font-weight: bold;
+    margin: 1px;
+    padding: 1px;
+}
+
+
+nav {
+    float: right;
+    margin: 2x;
+    padding: 2px;
+}
+
+nav ul li {
+    list-style: none;
+    display: inline-block;
+    padding: 5px;
+    margin: 5px;
+
+}
+
+ul li a {
+    color: black;
+}
+
+#banner {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+#head-para {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: center;
+}
+
+.heading1 {
+
+    font-weight: bold;
+}
+
+.para1 {
+
+    width: 70%;
+    margin: 0 auto;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.anchor{
+    padding: 8px 25px;
+   border-radius: 5px 5px 5px 5px;
+    color: white;
+    background-color: #5c7591;
+    
+}
+.anchor:hover{
+    background-color: aquamarine;
+}
+#person-cards{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: center;
+    margin-left: 5px;
+    margin-top: 40px;
+}
+
+.person-card{
+    display: inline-block;
+    width: 200px;
+    margin: auto;
+    padding: 40px;
+    border-radius:5px 5px 5px 5px;
+    border: black solid 1px;
+}
+.person-card h2{
+    font-weight: bold;
+    margin: 10px 0;
+}
+.person-card li {
+    margin: 5px 0;
+}
+
+
+#house-pic1{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: center;
+    float: left;
+    margin-left: 20px;
+    margin-top: 40px;
+}
+#see-anchor{
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
+.see-anchor{
+    padding: 8px 25px;
+    border-radius: 5px 5px 5px 5px;
+     color: white;
+     background-color: #5c7591;
+}
+.see-anchor:hover{
+    background-color: aquamarine;
+}
+#list-contractor
+{
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
+.list-head
+{
+    font-weight: bold;
+    float: left;
+    margin-left: 100px;
+}
+.list-para
+{
+    float: left;
+    margin-top: 100;
+}
